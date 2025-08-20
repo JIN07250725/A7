@@ -148,14 +148,14 @@ char letterGrade;
 C. CALCULATIONS
 Describe calculations used by algorithms in step D.  
 List all formulas. 
-Assignment Average = SUM(assignmentScores) / numAssignments；
+Assignment Average = SUM(assignmentScores) / numAssignments
 Final Numeric Score = (assignmentAverage * ASSIGN_WEIGHT) + (midtermScore * MIDTERM_WEIGHT) + (finalExamScore * FINAL_WEIGHT);
 Letter Grade Conversion:
-    A: finalNumericScore >= 3.3
+    A: 3.3 <= finalNumericScore <= 4.0 
     B: 2.8 <= score < 3.3
     C: 2.0 <= score < 2.8
     D: 1.2 <= score < 2.0
-    F: score < 1.2
+    F: 0.0 < score < 1.2
 
 D. LOGIC and ALGORITHMS
 Design the logic of your program using pseudocode or flowcharts. 
