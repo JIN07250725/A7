@@ -241,13 +241,13 @@ FUNCTION calcFinalScore(assignAvg, midterm, final)
 END FUNCTION
 
 FUNCTION calcLetterGrade(finalScore)
-    IF finalScore >= 3.3 THEN
+    IF 3.3 <= finalScore <= 4.0 THEN
         RETURN 'A'
-    ELSE IF finalScore >= 2.8 THEN
+    ELSE IF 2.8 <= finalScore < 3.3  THEN
         RETURN 'B'
-    ELSE IF finalScore >= 2.0 THEN
+    ELSE IF 2.0 <= finalScore < 2.8 THEN
         RETURN 'C'
-    ELSE IF finalScore >= 1.2 THEN
+    ELSE IF 1.2 <= finalScore < 2.0 THEN
         RETURN 'D'
     ELSE
         RETURN 'F'
