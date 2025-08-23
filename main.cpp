@@ -151,7 +151,7 @@ List all formulas.
 Assignment Average = SUM(assignmentScores) / numAssignments
 Final Numeric Score = (assignmentAverage * ASSIGN_WEIGHT) + (midtermScore * MIDTERM_WEIGHT) + (finalExamScore * FINAL_WEIGHT);
 Letter Grade Conversion:
-    A: 3.3 <= finalNumericScore <= 4.0 
+    A: 3.3 <= finalNumericScore <= 4.0
     B: 2.8 <= score < 3.3
     C: 2.0 <= score < 2.8
     D: 1.2 <= score < 2.0
